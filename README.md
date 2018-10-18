@@ -40,5 +40,6 @@ public static void Main(string[] args)
 - Minimal memory impact of 127 bits. (original Mersenne Twister uses 2.5 KiB - 2^(19937)-1)
 - Ideal for memory-saving situations.
 
-## Important Changes
+## Important Notes/Changes
 - 'TinyMT32_Mul' set to (1.0f / 16777216.0f) as intended by the original TinyMT project.
+- TinyMTCS requires the compiler to compile unsafe code.
