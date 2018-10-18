@@ -2,7 +2,7 @@
 C#/C-Sharp Port of the TinyMT Project from RobertGBryan's VC++ port (who ported it to VC++ from the original authors Saito/Matsumoto).
 
 ## TinyMTCS - Tiny Mersenne Twister C-Sharp
-This is a 2^127-1 period PRNG.
+This is a 32-bit implementation of the TinyMT project. It is a 2^127-1 period PRNG.
 
 ## About TinyMTCS
 This implementation is a direct C# port of the VS++ port by <a href="https://github.com/RobertGBryan">RobertGBryan</a>. <br>
