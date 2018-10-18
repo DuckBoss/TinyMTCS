@@ -11,7 +11,7 @@ I then ported RobertGBryan's VS++ port to C#/C-Sharp. <br>
 
 For more information on TinyMT(Saito/Matsumoto), visit : <br>
 <a  href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/TINYMT/index.html">http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/TINYMT/index.html</a>. <br>
-For more information on TinyMTCPP (RobertGBryan) : <br>
+For more information on TinyMTCPP (RobertGBryan), visit : <br>
 <a href="https://github.com/RobertGBryan/TinyMTCPP"> https://github.com/RobertGBryan/TinyMTCPP</a> <br>
 
 ## Usage Example
