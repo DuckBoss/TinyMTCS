@@ -16,6 +16,8 @@ For more information on TinyMTCPP (RobertGBryan) : <br>
 
 ## Usage Example
 ```
+using TinyMTCS;
+
 //default values...
 public static UInt32 Seed = 1;
 public static UInt32 Mat1 = 0x8f7011ee;
