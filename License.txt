@@ -1,6 +1,8 @@
 Copyright (c) 2011 Mutsuo Saito, Makoto Matsumoto, Hiroshima
 University and The University of Tokyo. All rights reserved.
+
 VC++ version written by Robert G. Bryan on May 16, 2012.
+MTCS C# version written by Jason Jerome on October 18, 2018.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
