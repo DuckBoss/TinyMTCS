@@ -37,7 +37,6 @@ public static void Main(string[] args)
 
 ## Key Features
 - Sequences are 2^(127)-1.
-- Minimal memory impact of 127 bits. (original Mersenne Twister uses 2.5 KiB - 2^(19937)-1)
 - Ideal for memory-saving situations.
 
 ## Important Notes/Changes
