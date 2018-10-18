@@ -9,9 +9,9 @@ This implementation is mostly a direct port of another port by <a href="https://
 RobertGBryan ported the original C based TinyMT project by Saito and Matsumoto from 2011 to VS++. <br>
 I then ported RobertGBryan's VS++ port to C#/C-Sharp. <br>
 
-For more information on TinyMT(Saito/Matsumoto), visit : 
+For more information on TinyMT(Saito/Matsumoto), visit : <br>
 <a  href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/TINYMT/index.html">http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/TINYMT/index.html</a>. <br>
-For more information on TinyMTCPP (RobertGBryan) : 
+For more information on TinyMTCPP (RobertGBryan) : <br>
 <a href="https://github.com/RobertGBryan/TinyMTCPP"> https://github.com/RobertGBryan/TinyMTCPP</a> <br>
 
 ## Usage Example
