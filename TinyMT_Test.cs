@@ -1,4 +1,11 @@
-﻿using System;
+/**
+* TinyMTCS C# port author:
+* @author DuckBoss (https://github.com/DuckBoss)
+* 
+* Use this to test TinyMTCS...
+*/
+
+using System;
 
 namespace TinyMTCS
 {
