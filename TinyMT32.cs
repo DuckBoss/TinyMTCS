@@ -23,7 +23,7 @@ namespace TinyMTCS
 {
     class TinyMT32
     {
-        private double TinyMT32_Mul = (1.0f / 16777216.0f);
+        private double TinyMT32_Mul = (1.0 / 4294967296.0);
         private const int TinyMT32_MExp = 127;
         private const int TinyMT32_SH0 = 1;
         private const int TinyMT32_SH1 = 10;
