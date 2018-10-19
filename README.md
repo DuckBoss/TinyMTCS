@@ -36,9 +36,13 @@ public static void Main(string[] args)
 ```
 
 ## Key Features
-- Sequences are 2^(127)-1.
-- Ideal for memory-saving situations.
+- The periods of generated sequences are 2^(127)-1.
+- The size of internal state space is 127 bits.
+- The state transition function is F2-linear.
+- The output function is not F2-linear.
+- TinyMTDC generates distinct parameter sets for TinyMT.
+- TinyMTDC can generate a large number of parameter sets. (over 2^(32) x 2^(16))
+- Parameter generation of TinyMTDC is fast.
 
-## Important Notes/Changes
-- 'TinyMT32_Mul' set to (1.0f / 16777216.0f) as intended by the original TinyMT project.
+## Important Notes
 - TinyMTCS requires the compiler to compile unsafe code.
