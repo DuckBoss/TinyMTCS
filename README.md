@@ -29,7 +29,7 @@ public static void Main(string[] args)
 {  
   //Initialize the TinyMT32 class and pass through variables...
   TinyMT32 TMT32 = new TinyMT32(Seed_32, Mat1_32, Mat2_32, TMat_32);
-  UInt32 result_#2 = TMT32.GetRandInt();
+  UInt32 result_32 = TMT32.GetRandInt();
   
   //Print result...
   Console.WriteLine(result_32);
