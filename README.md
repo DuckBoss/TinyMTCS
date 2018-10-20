@@ -47,7 +47,7 @@ public static UInt64 TMat_64 = 0x58d02ffeffbfffbc;
 
 public static void Main(string[] args)
 {  
-  //Initialize the TinyMT32 class and pass through variables...
+  //Initialize the TinyMT64 class and pass through variables...
   TinyMT64 TMT64 = new TinyMT64(Seed_64, Mat1_64, Mat2_64, TMat_64);
   UInt64 result_64 = TMT64.GetRandInt();
   
