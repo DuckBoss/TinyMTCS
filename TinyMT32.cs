@@ -137,7 +137,7 @@ namespace TinyMTCS
                 stFix[0] = r;
                 count--;
                 for (i = 1, j = 0; (j < count) && (j < key_length); j++) {
-                    r = Init1(stFix[1] ^ stFix[(i + mid) % size] ^ stFix[(i + size - 1) % size]);
+                    r = Init1(stFix[i] ^ stFix[(i + mid) % size] ^ stFix[(i + size - 1) % size]);
                     stFix[(i + mid) % size] += r;
                     r += init_key[j] + (UInt32)i;
                     stFix[(i + mid + lag) % size] += r;
