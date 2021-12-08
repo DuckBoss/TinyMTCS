@@ -7,7 +7,7 @@ This is both a 32-bit and 64-bit implementation of the TinyMT project. It is a 2
 ## About TinyMTCS
 This implementation is a direct C# port of the VS++ port by <a href="https://github.com/RobertGBryan">RobertGBryan</a>. <br>
 RobertGBryan ported the original C based TinyMT project by Saito and Matsumoto from 2011 to VS++. <br>
-I then ported RobertGBryan's VS++ port to C#/C-Sharp. <br>
+I then ported RobertGBryan's VC++ port to C#/C-Sharp. <br>
 
 For more information on TinyMT(Saito/Matsumoto), visit : <br>
 <a  href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/TINYMT/index.html">http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/TINYMT/index.html</a>. <br>
