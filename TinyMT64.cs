@@ -157,7 +157,7 @@ namespace TinyMTCS
             x ^= x << TinyMT64_SH0;
             x ^= x >> 32;
             x ^= x << 32;
-            x %= x << TinyMT64_SH1;
+            x ^= x << TinyMT64_SH1;
             MTState.Status[0] = MTState.Status[1];
             MTState.Status[1] = x;
             Int32 n = (Int32)(x & 1);
